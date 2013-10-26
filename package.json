@@ -1,43 +1,46 @@
 {
-	"name": "docpad-plugin-haml",
-	"version": "2.0.2",
-	"description": "Adds support for the HAML templating engine to DocPad.",
-	"homepage": "http://docpad.org/plugin/haml",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"haml",
-		"templating",
-		"templates",
-		"render",
-		"rendering"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url": "https://github.com/bevry/docpad-extras/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "http://github.com/bevry/docpad-extras.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": "6.x"
-	},
-	"dependencies": {
-		"haml": "~0.4.3"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.4.0"
-	},
-	"main": "./out/haml.plugin.js",
-	"scripts": {
-		"test": "node ./out/haml.test.js"
-	}
+  "name": "docpad-plugin-haml",
+  "version": "2.0.2",
+  "description": "Adds support for the HAML templating engine to DocPad.",
+  "homepage": "http://docpad.org/plugin/haml",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "haml",
+    "templating",
+    "templates",
+    "render",
+    "rendering"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "https://github.com/bevry/docpad-extras/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bevry/docpad-extras.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": "6.x"
+  },
+  "dependencies": {
+    "haml": "~0.4.3"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.4.0"
+  },
+  "main": "./out/haml.plugin.js",
+  "scripts": {
+    "test": "node ./out/haml.test.js"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
