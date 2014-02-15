@@ -4,4 +4,6 @@ title: "HAML Example"
 
 %h1= document.title
 
-%p= JSON.stringify(getCollection('database').pluck('filename'))
+%ul
+  :each filename in getCollection('database').pluck('filename')
+    %li= filename
