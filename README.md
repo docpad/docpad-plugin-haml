@@ -25,6 +25,24 @@ Convention:  `.anything.haml`
 docpad install haml
 ```
 
+## Usage
+
+``` haml
+---
+title: "HAML Example"
+---
+
+%h1= document.title
+
+%ul
+  :each filename in getCollection('database').pluck('filename')
+    %li= filename
+```
+
+Refer to the [haml website](http://haml.info) and the [haml-js guide](https://github.com/creationix/haml-js#executable-javascript-not-output) for more information about what is possible.
+
+NOTE: Tabs do not play nice with HAML.
+
 
 <!-- HISTORY/ -->
 
