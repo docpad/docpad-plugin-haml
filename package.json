@@ -1,7 +1,7 @@
 {
   "title": "HAML Plugin for DocPad",
   "name": "docpad-plugin-haml",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Adds support for the HAML templating engine to DocPad.",
   "homepage": "https://github.com/docpad/docpad-plugin-haml",
   "license": "MIT",
