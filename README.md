@@ -53,6 +53,9 @@ Refer to the [haml website](http://haml.info) and the [haml-js guide](https://gi
 NOTE: Tabs do not play nice with HAML.
 
 
+
+
+
 <!-- INSTALL/ -->
 
 <h2>Install</h2>
