@@ -1,7 +1,7 @@
 {
   "title": "HAML Plugin for DocPad",
   "name": "docpad-plugin-haml",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Adds support for the HAML templating engine to DocPad.",
   "homepage": "https://github.com/docpad/docpad-plugin-haml",
   "license": "MIT",
@@ -94,7 +94,7 @@
         "require"
       ],
       "engines": {
-        "node": "10 || 12 || 13 || 14"
+        "node": "10 || 12 || 14 || 15"
       }
     }
   ],
@@ -105,13 +105,13 @@
     "haml": "~0.4.3"
   },
   "devDependencies": {
-    "@bevry/update-contributors": "^1.17.0",
+    "@bevry/update-contributors": "^1.18.0",
     "coffeelint": "^2.1.0",
     "coffeescript": "^2.5.1",
     "docpad": "^6.83.2",
     "docpad-plugintester": "^1.7.3",
-    "projectz": "^2.16.0",
-    "valid-directory": "^3.4.0"
+    "projectz": "^2.17.0",
+    "valid-directory": "^3.5.0"
   },
   "peerDependencies": {
     "docpad": "^6.83.2"
